@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    /* justify content center wont work unless dispaly is flex */
+    align-items: center;
+    /* align item center womt work less you give an hight */
+    height: 100vh;
+    /* 100vh will always stau at the center of the current window responsively */
+
+    
+}
+.button{
+    border: none;
+    background:#000 ;
+    color: #cbcbcb;
+    padding: 1em 1.5rem;
+    font-family: inherit;
+    /* ont family inherit means that the button ,will inherit from the parent most component that is body so it will inherit use the same font family sa the body */
+    letter-spacing: .1em;
+}
+
+.button-border:hover{
+    background: linear-gradient(115deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83);
+    
+}
+
+.button-border:hover .button{
+    color: #fff;
+    padding: 1.1em 1.6rem;
+}
+
+.button-border{
+    background: linear-gradient(230deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83);
+    padding: 2px;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1E1F25;
+}
